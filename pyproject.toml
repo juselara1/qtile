@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qtile_conf"
+version = "0.1.0"
+description = "Configuration files for the qtile window manager."
+authors = ["Juan Lara <julara@unal.edu.co>"]
+
+[tool.poetry.dependencies]
+python = ">3.8,<3.11"
+juselara-qtile = "^0.1.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,81 @@
+[defaults]
+n_screens = 2
+wallpaper = "~/.config/qtile/img/wallpaper.png"
+ram = "🐏"
+cpu = "💻"
+wallpaper_mode = "fill"
+time_format = "%I:%M %p"
+
+[keys]
+    [keys.switch]
+    left = ["mod4", "h"]
+    right = ["mod4", "l"]
+    up = ["mod4", "k"]
+    down = ["mod4", "j"]
+    next = ["mod4", "space"]
+
+    [keys.move]
+    shuffle_left = ["mod4", "shift", "h"]
+    shuffle_right = ["mod4", "shift", "l"]
+    shuffle_up = ["mod4", "shift", "k"]
+    shuffle_down = ["mod4", "shift", "j"]
+
+    [keys.resize]
+    grow_left = ["mod4", "control", "h"]
+    grow_right = ["mod4", "control", "l"]
+    grow_up = ["mod4", "control", "k"]
+    grow_down = ["mod4", "control", "j"]
+
+    [keys.utils]
+    normalize = ["mod4", "n"]
+    maximize = ["mod4", "m"]
+    next_screen = ["mod4", "w"]
+    kill = ["mod4", "q"]
+    quit = ["mod4", "z"]
+    toggle_floating = ["mod4", "p"]
+    fullscreen = ["mod4", "f"]
+    next_window = ["mod4", "d"]
+    prev_window = ["mod4", "i"]
+
+    [keys.keygroups]
+    key1 = ["mod4", "shift", ""]
+    key2 = ["mod4", "shift", ""]
+    key3 = ["mod4", "shift", ""]
+    key4 = ["mod4", "shift", ""]
+    key5 = ["mod4", "shift", ""]
+    key6 = ["mod4", "shift", ""]
+    key7 = ["mod4", "shift", ""]
+    key8 = ["mod4", "shift", ""]
+
+    [keys.custom]
+    kitty = ["mod4", "Return", "kitty"]
+    window_selector = ["mod4", "r", "rofi -show window"]
+    window_launch = ["mod4", "c", "rofi -show run"]
+    screenshot = ["mod4", "s", "flameshot gui"]
+
+    [keys.stop]
+    restart = ["mod4", "control", "r"]
+    shutdown = ["mod4", "control", "q"]
+
+    [keys.keymouse]
+    set_position_floating = ["mod4", "Button1"]
+    set_size_floating = ["mod4", "Button3"]
+
+[font]
+    font = "helvetica"
+    fontsize = 20
+
+[spacing]
+    margin = 4
+    border_width = 2
+    line_width = 0
+    padding = 5
+    bar_size = 50
+
+[colors]
+    color0 = "#111111"
+    color1 = "#689D6A"
+    color2 = "#777777"
+    color3 = "#AAAAAA"
+    color4 = "#FFFFFF"
+    color5 = "#222222"
